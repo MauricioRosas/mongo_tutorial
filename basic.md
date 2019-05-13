@@ -1,7 +1,6 @@
 # mongo_tutorial
 Basic Mongo Tutorial
 
-">" = Command line
 "#" = Comment
 
 
