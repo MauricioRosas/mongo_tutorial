@@ -1,5 +1,6 @@
-# mongo_tutorial
-Basic Mongo Tutorial
+# Mongo tutorial
+From basic to ...
+
 
 "#" = Comment
 
@@ -24,13 +25,17 @@ Basic Mongo Tutorial
 > db.getCollectionNames()
 
 
-#Insert a variable into the collection
+#Insert a document into the collection
 >db.[collection_name].insert({"[Attrivute_1]": "[Caracteristics]", "[Attrivute_2]": "[Caracteristics]"})
 
 
-#Show vaiables in the collection
+#Show all the collections
 >db.[collection_name].find()
 
 
-#Remove a variable in the collection
+#Remove a document in the collection
 >db.[collection_name].remove({"[Attrivute_1]": "[Caracteristics]"})
+
+
+#Update a document
+>db.[collection_name].update("$set":{"[Attrivute_1]": "[Caracteristics]"})
