@@ -1,8 +1,8 @@
 # mongo_tutorial
 Basic Mongo Tutorial
 
->=Command line
-#=Comment
+">" = Command line
+"#" = Comment
 
 
 #Show the created data bases
