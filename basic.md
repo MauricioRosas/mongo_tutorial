@@ -34,4 +34,4 @@ Basic Mongo Tutorial
 
 
 #Remove a variable in the collection
-db.[collection_name].remove({"[Attrivute_1]": "[Caracteristics]"})
+>db.[collection_name].remove({"[Attrivute_1]": "[Caracteristics]"})
