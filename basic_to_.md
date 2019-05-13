@@ -37,5 +37,11 @@ From basic to ...
 >db.[collection_name].remove({"[Attrivute_1]": "[Caracteristics]"})
 
 
-#Update a document
->db.[collection_name].update("$set":{"[Attrivute_1]": "[Caracteristics]"})
+#Update a document 
+>db.[collection_name].update({"$set":{"[Attrivute_1]": "[Caracteristics]"}})
+
+
+#Update all the matching documents
+>db.[collection_name].update({"$set":{"[Attrivute_1]": "[Caracteristics]"}},{"multi":true})
+
+
