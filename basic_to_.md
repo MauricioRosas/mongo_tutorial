@@ -2,9 +2,6 @@
 From basic to ...
 
 
-"#" = Comment
-
-
 #Show the created data bases
 >Show dbs
 
