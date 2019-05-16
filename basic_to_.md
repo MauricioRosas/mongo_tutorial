@@ -49,7 +49,7 @@ From basic to ...
 # Sorting 
 
 #Asending order type 1 for desending order -1 *This works with letters and numbers*
-db.[collection_name].find().sort(#)
+>db.[collection_name].find().sort(#)
 
 
 #Remove a document in the collection
