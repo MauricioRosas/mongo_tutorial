@@ -63,3 +63,68 @@ From basic to ...
 >db.[collection_name].update({"$set":{"[Attrivute_1]": "[Caracteristics]"}},{"multi":true})
 
 
+# Most commun questions
+
+#Explain what is MongoDB?
+
+Mongo-DB is a document database which provides high performance, high availability and easy scalability.
+
+
+#What is “Namespace” in MongoDB?
+
+MongoDB stores BSON (Binary Interchange and Structure Object Notation) objects in the collection. The concatenation of the collection name and database name is called a namespace.
+
+
+#What is sharding in MongoDB?
+
+The procedure of storing data records across multiple machines is referred as Sharding. It is a MongoDB approach to meet the demands of data growth. It is the horizontal partition of data in a database or search engine. Each partition is referred as shard or database shard.
+
+
+#How can you see the connection used by Mongos?
+
+To see the connection used by Mongos use db_adminCommand (“connPoolStats”);
+
+
+#Explain what is a replica set?
+
+A replica set is a group of mongo instances that host the same data set. In replica set, one node is primary, and another is secondary. From primary to the secondary node all data replicates.
+
+
+#How replication works in MongoDB?
+
+Across multiple servers, the process of synchronizing data is known as replication. It provides redundancy and increase data availability with multiple copies of data on different database server. Replication helps in protecting the database from the loss of a single server.
+
+
+#Mention what is the command syntax for inserting a document?
+
+For inserting a document command syntax is database.collection.insert (document).
+
+
+#Mention how you can inspect the source code of a function?
+
+To inspect a source code of a function, without any parentheses, the function must be invoked.
+
+
+#What is the command syntax that tells you whether you are on the master server or not? And how many master does MongoDB allow?
+
+Command syntax Db.isMaster() will tell you whether you are on the master server or not. MongoDB allows only one master server, while couchDB allows multiple masters.
+
+
+#Mention the command syntax that is used to view Mongo is using the link?
+
+The command syntax that is used to view mongo is using the link is db._adminCommand(“connPoolStats.”)
+
+
+#Explain what are indexes in MongoDB?
+
+Indexes are special structures in MongoDB, which stores a small portion of the data set in an easy to traverse form. Ordered by the value of the field specified in the index, the index stores the value of a specific field or set of fields.
+
+
+#Mention what is the basic syntax to use index in MongoDB?
+
+The basic syntax to use in MongoDB is >db.COLLECTION_NAME.ensureIndex ( {KEY:1} ). In here the key is the the name of the COLUMN (or KEY:VALUE pair) which is present in the documents.
+
+
+#Explain what is GridFS in MongoDB?
+
+For storing and retrieving large files such as images, video files and audio files GridFS is used. By default, it uses two files fs.files and fs.chunks to store the file’s metadata and the chunks.
