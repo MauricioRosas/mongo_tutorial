@@ -1,10 +1,7 @@
 # Mongo tutorial
 From basic to ...
 
-
-#Show the created data bases
->Show dbs
-
+# Essential
 
 #Switches to use the database and creates it if doesn't exist
 >Use [DATABASE]
@@ -13,6 +10,10 @@ From basic to ...
 #Create a variable
 >[Name] = {"[Attrivute_1]": "[Caracteristics]", "[Attrivute_2]": "[Caracteristics]"}
 
+# Starting
+
+#Show the created data bases
+>Show dbs
 
 #Create a collection
 >db.[collection_name].insert()
