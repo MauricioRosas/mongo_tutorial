@@ -3,14 +3,14 @@ From basic to ...
 
 # Essential
 
-#Switches to use the database and creates it if doesn't exist
->Use [DATABASE]
-
-
 #Create a variable
 >[Name] = {"[Attrivute_1]": "[Caracteristics]", "[Attrivute_2]": "[Caracteristics]"}
 
 # Starting
+
+
+#Switches to use the database and creates it if doesn't exist
+>Use [DATABASE]
 
 #Show the created data bases
 >Show dbs
