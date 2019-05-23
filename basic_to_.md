@@ -231,3 +231,11 @@ The basic syntax to use in MongoDB is >db.COLLECTION_NAME.ensureIndex ( {KEY:1} 
 #Explain what is GridFS in MongoDB?
 
 For storing and retrieving large files such as images, video files and audio files GridFS is used. By default, it uses two files fs.files and fs.chunks to store the file’s metadata and the chunks.
+
+
+# References
+
+Guru99. (2019). Top 20 MongoDB Interview Questions & Answers. 23/05/2019, de Guru99 Sitio web: https://www.guru99.com/mongodb-interview-questions.html
+
+
+code school. (2015). All. En The magical marvels of mongodb(1 - 151). USE: Code school.
