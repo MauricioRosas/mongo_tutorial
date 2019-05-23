@@ -68,19 +68,19 @@ From basic to ...
 # Operators
 
 $gt       (Greater than)
-
+>db.[collection_name].find({"Field": {"$gt": #}})
 
 $gte      (Greater than or equal to)
-
+>db.[collection_name].find({"Field": {"$gte": #}})
 
 $ne       (Not equal)
-
+>db.[collection_name].find({"Field": {"$ne": #}})
 
 $lt       (less than)
-
+>db.[collection_name].find({"Field": {"$lt": #}})
 
 $lte      (less than or equal to)
-
+>db.[collection_name].find({"Field": {"$lte": #}})
 
 $max      (Updates if new value is greater than current or inserts if empty)
 
@@ -92,12 +92,13 @@ $mul      (Multiplies current field value by specified value. If empty, it inser
 
 
 $sum      (Sums)
-
+>db.[collection_name].aggregate([{"$group": {[Group_key], "[field]": {"$sum": 1}}}])
 
 $avg      (Average)
-
+>db.[collection_name].aggregate([{"$group": {[Group_key], "[field]": {"$avg": "$[field]"}}}])
 
 $match    (Passes documents to the next stage if they meet the speciﬁed condition)
+>db.[collection_name].find( {"sizes" :{"$elemMatch": {"$gt": 8, "$lt": 16}})
 
 
 $sort     (Sorts the field we created during the group stage)
