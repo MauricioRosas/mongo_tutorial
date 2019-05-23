@@ -4,7 +4,8 @@ From basic to ...
 # Essential
 
 #Create a variable
->[Name] = {"[Attrivute_1]": "[Caracteristics]", "[Attrivute_2]": "[Caracteristics]"}
+>[Name] = {"[field_2]": "[Caracteristics]", "[field_2]": "[Caracteristics]"}
+
 
 # Starting
 
@@ -18,10 +19,8 @@ From basic to ...
 #Create a collection
 >db.[collection_name].insert()
 
-
 #Show Collections
 > db.getCollectionNames()
-
 
 #Insert a document into the collection
 >db.[collection_name].insert({"[Attrivute_1]": "[Caracteristics]", "[Attrivute_2]": "[Caracteristics]"})
@@ -35,14 +34,11 @@ From basic to ...
 #Skip objects from the top of the collection *Where # is the number of objects you want to skip*
 >db.[collection_name].find().skip(#)
 
-
 #Limitation of showing *Where # is the number of objects you want to show from the top*
 >db.[collection_name].find().limit(#) 
 
-
 #Counting 
 >db.[collection_name].find().count()
-
 
 #Show just the desired attributes
 >db.[collection_name].find({"[Attrivute_1] : "[Caracteristics]"},{ [Attrivute_#]: true, [Attrivute_#]: true) 
